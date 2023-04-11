@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+header {
+    background-color: #353849;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a {
+    max-width: 40%;
+    max-height: 80%;
+}
+header a img {
+    max-height: 12vh;
+}
+#splash {
+    background-color: #4c5c96;
+    background-image: linear-gradient(to bottom right,#4c5c96, #7069A0);
+    max-height: 80vh;
+    padding: 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+#splash img {
+    max-width: 40%;
+    max-height: 40vh;
+}
+h1 {
+    font-size: xx-large;
+}
+#prospectus {
+    padding: 5%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: x-large;
+}
+#prospectus iframe {
+    width: 80%;
+    height: 100vh;
+}
